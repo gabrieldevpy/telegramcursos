@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def main():
-    bot_token = os.getenv("7990357492:AAGkw-XJNIi95RoTu_Jn2w7QIWhJCnXM7mQ")
+    bot_token = os.getenv("token")
     if not bot_token:
         raise ValueError("Token do bot não configurado!")
 
